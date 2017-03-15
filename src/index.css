@@ -1,0 +1,12 @@
+
+   .test {
+    color: navy; /* Цвет текста */
+    font-family: monospace; /* Моношириный шрифт */
+    quotes: "<" ">"; /* Устанавливаем вид кавычек */
+   }
+   .test:before {
+    content: open-quote; /* Добавляем перед текстом открывающую кавычку */
+  }
+   .test:after {
+    content: close-quote; /* Добавляем после текста закрывающую кавычку */
+   }
